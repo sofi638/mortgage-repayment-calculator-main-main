@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cont-calculator">
+        <div>
+          <h2>Mortgage Calculator</h2>
+          <a href="">clear all</a>
+        </div>
+
+        <div class="amount">
+          <p>Mortgage Amount</p>
+          <div class="input-container">
+            <p class="pound">£</p>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div class="term">
+          <div class="container-term">
+            <div>
+              <p>Mortgage Term</p>
+              <div class="cont-term">
+                <input type="text" />
+                <p class="p-years">years</p>
+              </div>
+            </div>
+            <div>
+              <p>Interest Rate</p>
+              <div class="cont-percent">
+                <input type="text" />
+                <p class="percent">%</p>
+              </div>
+            </div>
+          </div>
+
+          <p>Mortgage type</p>
+          <div class="radio-1">
+            <input type="radio" id="radio1" name="radios" />
+            <label for="radio1">Repayment</label>
+          </div>
+          <div class="radio-2">
+            <input type="radio" id="radio2" name="radios" />
+            <label for="radio2">Interest Only</label>
+          </div>
+          <button class="btn">
+            <img class="img-1" src="assets/images/icon-calculator.svg" alt="" />
+            Calculate Repayments
+          </button>
+        </div>
+      </div>
+      <div class="cont-empty">
+        <img class="img-2" src="assets/images/illustration-empty.svg" alt="" />
+
+        <h3 class="p-1">Results shown here</h3>
+        <p class="p-1">
+          Complete the form and click "calculate repyments" to see what your
+          monthly repayments would be.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

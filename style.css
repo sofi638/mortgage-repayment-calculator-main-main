@@ -1,0 +1,104 @@
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: hsl(202, 86%, 94%);
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 700px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.input-container {
+  border: 1px solid black;
+  display: flex;
+  border-radius: 5px;
+  width: 100%;
+}
+.input-container .pound {
+  padding: 10px;
+  background-color: hsl(202, 86%, 94%);
+  width: 20px;
+  margin: 0px;
+}
+
+.input-container input {
+  width: 100%;
+}
+
+.cont-term {
+  border: 1px solid black;
+  display: flex;
+  border-radius: 5px;
+}
+.p-years {
+  padding: 10px;
+  background-color: hsl(202, 86%, 94%);
+  margin: 0px;
+}
+
+.cont-percent {
+  border: 1px solid black;
+  display: flex;
+  border-radius: 5px;
+}
+.percent {
+  padding: 10px;
+  background-color: hsl(202, 86%, 94%);
+  margin: 0px;
+}
+.radio-1 {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+.radio-2 {
+  margin-top: 6px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: hsl(61, 70%, 52%);
+  border: none;
+  padding: 5px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.img-1 {
+  width: 18px;
+}
+
+.container-term {
+  display: flex;
+  gap: 15px;
+}
+
+.cont-empty {
+  background-color: hsl(202, 55%, 16%);
+  padding: 50px;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 30px;
+}
+
+.img-2 {
+  width: 150px;
+}
+
+.cont-calculator {
+  padding: 20px;
+}
+
+.p-1 {
+  color: white;
+}
